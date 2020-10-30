@@ -1,0 +1,69 @@
+/* light Green #90f090
+normal Green 		#006030
+dark green #003018 */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Slab', serif;
+  font-size: 25px;
+  line-height: 150%;
+  color:	#006030;
+}
+
+header{
+
+}
+
+header h1{
+  font-style: italic;
+}
+
+header a:link,
+header a:visited{
+  text-decoration: none;
+  color: #003018;
+
+}
+
+header a:hover,
+header a:active{
+  text-decoration: none;
+  color: #90f090;
+  transition: color 0.2s;
+}
+
+footer{
+  border-top: 1px solid #90f090;
+  margin-top: 20px;
+  font-style: italic;
+  background-color: rgb(213, 213, 213);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 700px;
+}
+
+footer .creator{
+  font-size: 60%;
+
+}
+
+body{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  padding-top: 20px;
+  height: 100vh;
+}
+
+.main-panel{
+  flex-grow: 1;
+}
+
+.main-panel img{
+  width:250px;
+  margin:20px;
+}
